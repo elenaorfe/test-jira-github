@@ -46,14 +46,14 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
       - name: Create GitHub deployment
-        uses: chrnorm/deployment-action@v2
+        uses: chrnorm/deployment-action@releases/v1
         with:
           token: '${{ github.token }}'
           environment-url: https://elenaorfe.github.io/test-jira-github/
           environment: development
       - name: Update deployment status (success)
         if: success()
-        uses: chrnorm/deployment-status@v2
+        uses: chrnorm/deployment-status@releases/v1
         with:
           token: '${{ github.token }}'
           environment-url: ${{ steps.deployment.outputs.environment_url }}
