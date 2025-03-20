@@ -49,7 +49,6 @@ jobs:
         uses: chrnorm/deployment-action@releases/v1
         with:
           token: '${{ github.token }}'
-          environment-url: https://elenaorfe.github.io/test-jira-github/
           environment: development
       - name: Update deployment status (success)
         if: success()
