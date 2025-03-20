@@ -44,10 +44,10 @@ jobs:
     needs: build
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
       - name: Create GitHub deployment
         uses: chrnorm/deployment-action@v2
+        id: deployment
         with:
           token: '${{ github.token }}'
           environment-url: "https://elenaorfe.github.io/test-jira-github/"
