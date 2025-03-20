@@ -3,3 +3,4 @@ deployments:
     development:
       - "dev*"
       - "elenaorfe*"
+      - "github-pages*"
