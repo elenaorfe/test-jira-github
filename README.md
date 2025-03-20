@@ -1,2 +1,2 @@
 # test-jira-github
-test
+tests

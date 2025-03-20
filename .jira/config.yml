@@ -2,4 +2,6 @@ deployments:
   environmentMapping:
     development:
       - "dev*"
-      - "https://elenaorfe.github.io/test-jira-github/"
+      - "elenaorfe"
+      - "github-pages"
+      - "development"
