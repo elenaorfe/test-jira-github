@@ -2,6 +2,6 @@ deployments:
   environmentMapping:
     development:
       - "dev*"
-      - "elenaorfe"
+      - "elenaorfe*"
       - "github-pages"
       - "development"
