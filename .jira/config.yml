@@ -1,7 +1,0 @@
-deployments:
-  environmentMapping:
-    development:
-      - "dev*"
-      - "elenaorfe*"
-      - "github-pages"
-      - "development"
